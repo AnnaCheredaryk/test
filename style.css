@@ -1,0 +1,268 @@
+{\rtf1}
+@font-face{
+	font-family: 'SegoeWPN';
+	src: url(fonts/SegoeWPN.ttf);
+}
+
+.evr{
+	margin: auto;
+	width: 1250px;
+	background-image: url(Background.png);
+	background-repeat: no-repeat;
+}
+
+.menu{
+	height: 90px;
+	width: 1250px;
+	background-color: white;
+}
+
+.top{
+	height: 750px;
+	width: 1250px;
+	overflow: hidden;
+}
+
+.menu-left{
+	width: 537px;
+	height: 90px;
+	float: left;
+}
+
+.menu-left img{
+	margin-top: 20px;
+}
+
+.menu-right{
+	width: 543px;
+	height: 90px;
+	float: right;
+}
+
+.menu-right li{
+	float: left;
+	list-style: none;
+}
+
+.menu-right a{
+    font-size: 20.35px;
+    transition: 0.5s;
+    line-height: 90px;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #6c6c6c;
+    padding-bottom: 17px;
+}
+
+.menu-right a:hover{
+	border-bottom: 1px solid #5094f2;
+}
+
+
+.slick-block{
+	height: 578px;
+	max-width: 1250px;
+	position: relative;
+}
+
+.backg img{
+	width: 100%;
+}
+
+
+
+.backg-text-one{
+	position: absolute;
+ font-size: 42px;
+  top: 234px;
+    left: 631px;
+    color: white;
+    font-family: 'SegoeWPN';
+
+}
+
+.backg-text-two{
+	position: absolute;
+	font-size: 26px;
+	color: white;	
+	top: 318px;
+	left: 631px;
+	width: 270px;
+	height: 79px;
+	font-family: 'SegoeWPN';
+
+}
+
+.main{
+	width: 1250px;
+	height: 349px;
+	overflow: hidden;
+}
+
+.main-blocks{
+	width: 1000px;
+	height: 349px;
+	margin: auto;
+}
+
+.block-one{
+	    width: 331px;
+    height: 349px;
+    float: left;
+    
+}
+
+.block-one p{
+text-align: center;
+font-family: 'SegoeWPN';
+}
+
+.block-one img{
+	    margin-left: 73px;
+}
+.block-two{
+	width: 331px;
+    height: 349px;
+    float: left;
+}
+
+.block-two p{
+text-align: center;
+font-family: 'SegoeWPN';
+}
+
+.block-two img{
+ margin-left: 73px;
+}
+.block-three{
+	width: 331px;
+	height: 349px;
+	float: left;
+}
+
+.block-three p{
+text-align: center;
+font-family: 'SegoeWPN';
+}
+
+.block-three img{
+	 margin-left: 73px;
+}
+
+.block-text{
+	color: #5094f2;
+	font-size: 20px;
+}
+
+.block-text-two{
+	color: #909090;
+	font-size: 14px;
+
+}
+
+.butt{
+	position: absolute;
+	height: 42px;
+	width: 174px;
+	background-color: #5094f2;
+	top: 444px;
+    left: 632px;
+
+}
+
+.butt a{
+	font-size: 22px;
+    color: white;
+    line-height: 40px;
+    float: right;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.butt img{
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: 9px;
+    left: 12px;
+}
+
+
+.bottom{
+	width: 1250px;
+	height: 503px;
+	overflow: hidden;
+}
+
+.bottom-one p{
+	font-size: 42px;
+	color: #6f7173;
+	font-family: 'SegoeWPN';
+}
+
+.bottom-one {
+	height: 408px;
+    width: 360px;
+    float: left;
+}
+
+.bottom-two{
+	height: 298px;
+    width: 467px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 83px;
+}
+
+.bottom-two-text{
+	color: #6f7173;
+	font-size: 26px;
+	font-family: 'SegoeWPN';
+}
+
+.bottom-two-text-two{
+	color: #909090;
+	font-size: 15px;
+    line-height: 2;
+    font-family: 'SegoeWPN';
+}
+/*
+.top{
+	margin: auto;
+	width: 1251px;
+	height: 90px;
+	background-color: #313030;
+}
+.menu{
+	width: 400px;
+	height: 90px;
+	margin: auto;
+}
+.menu li{
+	font-size: 14px;
+	color: white;
+	margin: 15px;
+	float: left;
+	list-style: none;
+}
+
+.menu ul{
+margin: 0;
+padding: 0;
+
+}
+
+.menu a{
+	text-align: center;
+   line-height: 60px;
+   font-size: 14px;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   transition: 0.5s;
+   display: block;
+}
+
+.menu a:hover{
+	background-color: red;
+}
